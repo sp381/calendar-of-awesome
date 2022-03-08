@@ -1,5 +1,7 @@
 # Work Day Scheduler Starter Code
-Github io url:
+Github io url: https://sp381.github.io/calendar-of-awesome/
+
+This project used HTML, CSS, JAVASCRIPT, Bootstrap and Moment.JS
 
 In this repository you will be able to use the hourly workday calendar to create and save content. The current date and time are conveniently at the top of the page. 
 
