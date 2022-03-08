@@ -7,4 +7,6 @@ The rows are hourly from 9am - 5pm. When time passes the past hour blocks will t
 blocks will be green. 
 
 Your tasks will save to local storage whenever you hit the save button. 
-git remote set-url origin git://new.url.here
+
+
+![GitHub Logo](/images/capture.png) 
