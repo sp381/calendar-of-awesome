@@ -9,4 +9,5 @@ blocks will be green.
 Your tasks will save to local storage whenever you hit the save button. 
 
 
-![GitHub Logo](/images/capture.png) 
+![GitHub Logo](/images/Capture.PNG) 
+
