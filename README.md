@@ -1,5 +1,5 @@
 # Work Day Scheduler Starter Code
-Github io url: https://sp381.github.io/calendar-of-awesome/
+Github io url: 
 
 This project used HTML, CSS, JAVASCRIPT, Bootstrap and Moment.JS
 
