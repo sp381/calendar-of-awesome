@@ -193,3 +193,18 @@ function workTimeframe() {
 }
 
 workTimeframe();
+
+//for loop to gather the info in each text box
+var gather = [''];
+
+for(var i = 0; i < gather.length; i++) {
+    localStorage.setItem('gather', gather)
+}
+
+const element = document.getElementById("saveBtn");
+element.addEventListener("click", myFunction);
+
+function myFunction() {
+    document.getElementById("tasks").innerHTML 
+    console.log("it worked!");
+}
