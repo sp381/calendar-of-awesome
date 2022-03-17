@@ -26,20 +26,22 @@ textarea{
 }
 
 .time-block{
+  grid-row-start: auto;
   text-align: center;
-  border-radius: 15px;
+  border-radius: 20px;
 }
 
 .row {
   white-space: pre-wrap;
-  height: 80px;
+  height: 100px;
+  width: 30%;
   border-top: 1px solid white;;
 }
 
 .hour {
   background-color: #ffffff;
   color: #000000;
-  border-top: 1px dashed #000000;
+  border-top: 5px dashed #000000;
 }
 
 .past {
@@ -63,16 +65,16 @@ flex-direction: row;
 
 .saveBtn {
   border-left: 1px solid black;
-  border-top-right-radius: 15px;
+  border-top-right-radius: 8px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: #6fc5d8;
   color: white;
   padding: 10px;
 }
 
 .saveBtn i:hover {
-  font-size: 20px;
-  transition: all .3s ease-in-out;
+  font-size: 200px;
+  transition:ease 
 }
 
 .date {

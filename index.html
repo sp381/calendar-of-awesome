@@ -4,20 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
@@ -33,90 +20,90 @@
 
     </header>
     <!-- time blocks -->
-    <div class="container" class="gather" >
+    <div class="container-fluid">
       <!-- 9am Timeblock goes here -->
       <section class="input" hour="9"> 
-        <div>
-          <span class="input-text time-block block-1"></span> 
+        <div class="col-md-8 col-sm-6"> 
+          <span class="input-text time-block block-1 gather"></span> 
         </div>
-        <input type="text" class="box1" id="tasks" aria-label="large">
+        <input type="text" class="box1" id="tasks">
         <button class="saveBtn" id="saveBtn">Save</button>
       </section>
 
       <!-- 10am Timeblock goes here-->
       <section class="input" hour="10"> 
-        <div>
-          <span class="input-text time-block block-2"></span> 
+        <div class="col-md-8 col-sm-6">
+          <span class="input-text time-block block-2 gather"></span> 
         </div>
-        <input type="text" class="box2" id="tasks" aria-label="large">
+        <input type="text" class="box2" id="tasks">
         <button class="saveBtn" id="saveBtn">Save</button>
       </section>
 
       <!-- 11am Timeblock goes here-->
       <section class="input" hour="11"> 
-        <div>
-          <span class="input-text time-block block-3"></span> 
+        <div class="col-md-8 col-sm-6">
+          <span class="input-text time-block block-3 gather"></span> 
         </div>
-        <input type="text" class="box3" id="tasks" aria-label="large">
+        <input type="text" class="box3" id="tasks">
         <button class="saveBtn" id="saveBtn">Save</button>
       </section>
 
        <!-- 12pm Timeblock goes here-->
       <section class="input" hour="12"> 
-        <div>
-          <span class="input-text time-block block-4"></span> 
+        <div class="col-md-8 col-sm-6">
+          <span class="input-text time-block block-4 gather"></span> 
         </div>
-        <input type="text" class="box4" id="tasks" aria-label="large">
+        <input type="text" class="box4" id="tasks">
         <button class="saveBtn" id="saveBtn">Save</button>
       </section>
 
       <!-- 1pm(13) Timeblock goes here-->
       <section class="input" hour="13"> 
-        <div>
-          <span class="input-text time-block block-5"></span> 
+        <div class="col-md-8 col-sm-6">
+          <span class="input-text time-block block-5 gather"></span> 
         </div>
-        <input type="text" class="box5" id="tasks" aria-label="large">
+        <input type="text" class="box5" id="tasks">
         <button class="saveBtn" id="saveBtn">Save</button>
       </section>
 
       <!-- 2pm(14) Timeblock goes here-->
       <section class="input" hour="14"> 
-        <div>
-          <span class="input-text time-block block-6"></span> 
+        <div class="col-md-8 col-sm-6">
+          <span class="input-text time-block block-6 gather"></span> 
         </div>
-        <input type="text" class="box6" id="tasks" aria-label="large">
+        <input type="text" class="box6" id="tasks">
         <button class="saveBtn" id="saveBtn">Save</button>
       </section>
 
       <!-- 3pm(15) Timeblock goes here-->
       <section class="input" hour="15"> 
-        <div>
-          <span class="input-text time-block block-7"></span> 
+        <div class="col-md-8 col-sm-6">
+          <span class="input-text time-block block-7 gather"></span> 
         </div>
-        <input type="text" class="box7" id="tasks" aria-label="large">
+        <input type="text" class="box7" id="tasks">
         <button class="saveBtn" id="saveBtn">Save</button>
       </section>
 
       <!-- 4pm(16) Timeblock goes here-->
       <section class="input" hour="16"> 
-        <div>
-          <span class="input-text time-block block-8"></span> 
+        <div class="col-md-8 col-sm-6">
+          <span class="input-text time-block block-8 gather"></span> 
         </div>
-        <input type="text" class="box8" id="tasks" aria-label="large">
+        <input type="text" class="box8" id="tasks">
         <button class="saveBtn" id="saveBtn">Save</button>
       </section>
 
       <!-- 5pm(17) Timeblock goes here-->
       <section class="input" hour="17"> 
-        <div>
-          <span class="input-text time-block block-9"></span> 
+        <div class="col-md-8 col-sm-6">
+          <span class="input-text time-block block-9 gather"></span> 
         </div>
-        <input type="text" class="box9" id="tasks" aria-label="large">
+        <input type="text" class="box9" id="tasks">
         <button class="saveBtn" id="saveBtn">Save</button>
       </section>
     </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="./assets/script.js"></script>
   </body>
 </html>

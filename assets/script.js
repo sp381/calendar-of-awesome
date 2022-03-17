@@ -1,13 +1,12 @@
 const m = moment();
 console.log(m.toString());
 
-//The current month, day, year + current time
+//The current date & time
 var today = new Date();
  var date = moment().format('MMMM Do YYYY, h:mm:ss a');
  document.getElementById("currentDate").value = date;
 
  var currentTime = moment();
- // Returns current time to the nearest hour - 12:30 becomes 12:00
  currentTime = currentTime.startOf("hour");
  // Calculates the start of day + 9 to return 9 am
  var beforeTime = moment().startOf('day').add(9, "hours");
@@ -78,7 +77,6 @@ $(".block-9").text(time5);
 
 
 // Function to compare hour slots with current time 
-// Update these to coordinating numbers
 function workTimeframe() {
     // Add time 9AM
     time9 = moment().startOf('day').add(9, "hours");
@@ -192,19 +190,16 @@ function workTimeframe() {
     };
 }
 
-workTimeframe();
-
-//for loop to gather the info in each text box
-var gather = [''];
-
-for(var i = 0; i < gather.length; i++) {
-    localStorage.setItem('gather', gather)
-}
-
+function myFunction() {
+    document.getElementById("tasks").innerHTML 
+} 
 const element = document.getElementById("saveBtn");
 element.addEventListener("click", myFunction);
 
-function myFunction() {
-    document.getElementById("tasks").innerHTML 
-    console.log("it worked!");
-}
+workTimeframe();
+
+var gather = localStorage.getItem("gather");
+if (gather === null) {
+    gather = blank;
+} 
+var gather = localStorage.setItem("gather", gather);
