@@ -16,7 +16,7 @@ var today = new Date();
 var time9 = beforeTime.add(0, "h");
 // var time9 = beforeTime;
 time9 = time9.format('hh:mm A');
-// Populates time formula into html
+// Populates time formula into htmlasa
 $(".block-1").text(time9);
 
 // 10 AM 
